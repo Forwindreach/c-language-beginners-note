@@ -1,12 +1,12 @@
+//#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
 //int c_c = 2024;
 int main()
 {
-	{//±äÁ¿bÉúÃüÖÜÆÚ¿ªÊ¼
+	{//å˜é‡bç”Ÿå‘½å‘¨æœŸå¼€å§‹
 		int b = 9;
 		printf("%d\n", b);
-	}//±äÁ¿bÉúÃüÖÜÆÚ½áÊø
+	}//å˜é‡bç”Ÿå‘½å‘¨æœŸç»“æŸ
 
 
 	return 0;
