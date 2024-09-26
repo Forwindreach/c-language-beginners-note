@@ -1,8 +1,8 @@
-//#include<stdio.h>
 //#define _CRT_SECURE_NO_WARNINGS
-////作用域和生命周期
-////大括号内的为同一个作用域，大括号外的全局变量(作用于整个工程）
-//extern int c_c;//声明存在变量 c
+//#include<stdio.h>
+////浣滅敤鍩熷拰鐢熷懡鍛ㄦ湡
+////澶ф嫭鍙峰唴鐨勪负鍚屼竴涓綔鐢ㄥ煙锛屽ぇ鎷彿澶栫殑鍏ㄥ眬鍙橀噺(浣滅敤浜庢暣涓伐绋嬶級
+//extern int c_c;//澹版槑瀛樺湪鍙橀噺 c
 //
 //int main()
 //{
