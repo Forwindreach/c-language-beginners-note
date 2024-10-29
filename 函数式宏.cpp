@@ -1,17 +1,8 @@
 #include<stdio.h>
-#define sqr(x)((x)*(x))
-int main(void)
+#define sum(x) ((x)*(x))//注意不要再m和（间插入空格，否则变成对象式宏，无法进行赋值 
+int main()
 {
-	int n;
-	double x;
-	printf("请输入一个整数:");
-	scanf("%d",&n);
-	printf("他的平方等于：%d\n",sqr(n));
-	
-	printf("请输入一个实数：");
-	scanf("%lf",&x);
-	printf("他的平方：%f",sqr(x));
+	printf("%d",sum(5));
 	return 0;
-	 
+	
 }
-
