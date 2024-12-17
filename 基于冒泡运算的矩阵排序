@@ -1,0 +1,39 @@
+#include<stdio.h>
+void bomb (int arr[20][20],int b,int l)
+{
+    int i,j,k,temp;
+    for(k = 0;k < l;k++){
+        for(i = 0;i<b-1;i++){
+            for(j = 0;j<b-1-i;j++){
+                if(arr[j][k]<arr[j+1][k]){
+                    temp = arr[j][k];
+                    arr[j][k] = arr[j+1][k];
+                    arr[j+1][k] = temp;
+                }
+                
+                
+            }
+        }
+        
+        
+    }
+}
+int main(void)
+{
+    int i,j,m,n,arr[20][20];
+    scanf("%d%d",&m,&n);
+    for(i = 0;i<m;i++){
+        for(j = 0;j<n;j++)
+            scanf("%d",&arr[i][j]);
+    }
+    bomb(arr,m,n);
+    for(i = 0;i<m;i++){
+        for(j = 0;j<n;j++)
+            printf("%d ",arr[i][j]);
+        printf("\n");
+        
+    }
+    
+    
+    return 0;
+}
